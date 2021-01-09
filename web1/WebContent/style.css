@@ -1,0 +1,294 @@
+@charset "utf-8"; /* CSS Document*/
+div{
+    display:block;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    min-width: 1300px;
+    background: #ffffff;
+    font-family: "Microsoft Yahei", 宋体, sans-serif;
+}
+ul, li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+
+}
+
+img {
+    border: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #666666;
+}
+span {
+    float: right;
+    color: #a9a9a9;
+}
+.w1300 {
+    width: 1300px;
+    height: auto;
+    margin: 0 auto;
+}
+/*header*/
+.i_top{
+    width: 1300px; margin: 0 auto; height:58px; line-height: 58px; }
+.top_login {
+    width: 300px;
+    float: right;
+    font-size: 14px;
+    color: #666666;
+    line-height: 58px;
+    height: 58px;
+    padding:0;
+    text-align: left
+}
+
+.top_login a {
+    color: #333333;
+    padding: 0 7px
+}
+.header {
+    width: 100%;
+    height: 100px;
+    background:url("img/header_bg.png") center repeat-y;
+    border-bottom: #ab1f2a 1px solid;
+    border-top: #ab1f2a 1px solid;
+}
+
+.header .logo {
+    padding: 15px 0 0 0;
+    width: 412px;
+    float: left;
+    background: #ab1f2a;
+}
+
+
+/*inav*/
+.avline{
+    background: #ab1f2a;
+    width:100%;
+    height:1px;
+    float: left;
+}
+.inavbox {
+    background: #ffffff;
+    width: 888px;
+    height:100px;
+    margin: 0 0 0 0;
+    float: right;
+}
+
+.inav {
+    padding: 0;
+    height:60px;
+    line-height: 60px;
+    position: relative;
+    width: 100%;
+    z-index: 9;
+
+}
+.inav a {
+    color: #333333;
+}
+
+.inav .nLi {
+    float: left;
+    position: relative;
+    display: inline;
+
+}
+
+.inav .nLi h3 {
+    float: left;
+}
+
+.inav .nLi h3 a {
+    display: block;
+    padding:25px 13px;
+    font-size: 18px;
+    font-weight: normal;
+    line-height:30px;
+    height:50px;
+
+}
+.inav .nLi h3 a span{display:block; color: #c4c4c4; text-align: center; width: 100%; font-size: 12px; line-height:24px; height: 24px;}
+
+.inav a {
+    color: #333333;
+}
+
+.newspart{ width: 100%; height:540px ;background: #f2f5f9; padding: 20px 0 10px 0; }
+.newstitle{ width:1300px; text-align: center; margin: 0 auto; height: 50px; line-height: 50px; background: url("img/news_titlebg.png") center no-repeat }
+.newstitle h2{ display: block; width: 120px; margin: 0 auto; text-align: right}
+.news_box{width:1300px;  text-align: center; margin: 0 auto; height: auto; overflow: hidden;}
+
+.right_content{ float: left; width: 645px;background: #FFFFFF;padding: 5px; }
+.news_pic{ width:645px; height:472px; overflow:hidden; float: right; }
+.left{width: 49.8%;height: auto;background: #f2f5f9;float: left}
+.center{width: 0.4%;float: left;}
+.right{width:49.8%;height: auto;float: right}
+
+.i-main {
+    height: auto;
+    overflow: hidden;
+    margin: 30px auto 20px auto;
+    background: aqua;
+}
+.item_1{
+    height: 542px;
+    width: 1300px;
+    margin: 30px auto 30px auto;
+    border:5px solid red;
+}
+
+.web_picture{
+    width: 1290px;
+    height: 450px;
+    margin: 0 auto;
+
+}
+.item_w1300{
+    width: 1300px;
+    height:1000px;
+    margin: 30px auto 30px auto;
+}
+.item_left{
+    height:1000px ;
+    width:810px ;
+    margin: 0 auto;
+    float: left;
+
+}
+.item_left1{
+    height: 490px;
+    width: 100%;
+    margin: 5px auto 5px auto ;
+    border:5px solid red;
+}
+.ppt{
+    height: auto;
+    width: 800px;
+    margin: 5px auto 5px auto;
+
+}
+.ppt li{
+    width: 100%;
+    font-size: 24px;
+    color: #999999;
+    line-height: 48px;
+    height: 48px;
+    margin-left: 10px;
+}
+.ppt li a {
+    background: url(img/ico_001.png) left center no-repeat;
+    padding-left: 15px;
+    color: #333333;
+    font-size: 24px;
+    float: left;
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 90%;
+    text-align: left;
+}
+.ppt li a:link{
+    color: #3C3C3C;
+    text-decoration:underline ;
+}
+.ppt li a:hover{
+    color: red;
+    text-decoration:underline ;
+}
+.ppt li span {
+    float: right;
+    color: #a9a9a9;
+}
+.video{
+    margin: 5px auto;
+     height: auto;
+   width: auto;
+}
+.item_left2{
+    height: 490px;
+    width: 100%;
+    margin:10px auto 0px auto ;
+    border:5px solid red;
+}
+.item_right{
+    height:1000px ;
+    width:460px ;
+    margin: 5px auto;
+    float: right;
+    border:5px solid red;
+}
+.textArea{
+    overflow: auto;
+    height: 720px;
+    width: 450px;
+    margin: 0 auto;
+    border: 3px solid darkgrey;
+}
+.comment{
+    width: 440px;
+    height: auto;
+    margin: 2px auto;
+    border: 2px solid bisque;
+}
+.reply{
+    width: 440px;
+    height: auto;
+    margin: 0 auto;
+    border: 1px dashed bisque;
+}
+
+.inputArea{
+    height: 200px;
+    width: 440px;
+    margin: 5px auto;
+    border: 3px solid #b3aaab;
+}
+.ititle {
+    height: 50px;
+    margin: 0 auto 5px auto;
+    overflow: hidden;
+}
+.ititle h2 {
+    float: left;
+    margin: 0px 5px ;
+    padding: 0 20px 0 35px;
+    font-size: 24px;
+    font-weight: normal;
+    color: #333333;
+    line-height: 50px;
+    display: block;
+}
+.title_ico01 {
+    background: url(img/tit_ico1.png) left 14px no-repeat;
+}
+
+.foot{
+    width: 100%;
+    height: 410px;
+    padding: 20px 0 ;
+}
+.foot_content{
+    width: 1300px;
+    height:220px;
+    margin: 0 auto;
+    background: url("img/bottom.jpg") ;
+    background-size: 100% auto;
+}
+.foot_content h3{
+    margin: auto;
+}
